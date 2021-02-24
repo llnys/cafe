@@ -1,0 +1,227 @@
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.hero {
+    width: 100%;
+    height: 100vh;
+    background: url("images/hero-image.png") center no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.container {
+  text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.section-title {
+  padding: 30px 0 10px 0;
+  font-size: 2.5rem;
+  color: chocolate;
+ }
+
+/* navbar */
+
+.nav-list {
+    list-style: none;
+}
+
+.nav a {
+    float: right;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+
+
+.navbar-nav a:hover {
+  color: chocolate;
+}
+
+.navbar-custom {
+  background-color: #EBB284;
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link {
+  color: black;
+}
+
+.navbar-nav {
+            margin-left: auto;
+        }
+
+    .custom-toggler .navbar-toggler-icon {
+          background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(50,50,50, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+        }
+        
+    .custom-toggler.navbar-toggler {
+          border-color: transparent;
+        } 
+
+
+    .navbar-toggler:focus {
+          text-decoration: none;
+          outline: 0;
+          box-shadow: none;
+      }
+       
+    .navbar .navbar-collapse {
+        text-align: center;
+        
+      }
+
+/* logo */
+
+  .logo {
+    background-size: contain;
+    width:30%;
+    height:30%;
+  }
+   
+   
+   @media (max-width: 1030px) {
+        .logo {
+          width: 40%;
+       }
+    }
+   
+   @media (max-width: 800px) {
+         .logo {
+            width: 60%;
+        }
+     }
+   
+
+/* About us */
+ 
+.feature-section {
+  padding: 5%;
+  background-color: white;
+}
+  
+  .feature-title {
+    font-size: 2.5rem;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 4rem;
+    color: chocolate;
+
+  }
+
+  .feature-text {
+  
+    font-size: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    padding-right: 5%;
+    padding-left: 5%;
+    text-align: center;
+
+  }
+  
+  .feature-box {
+    padding: 3%;
+  }
+
+  @media (max-width: 1200px) {
+    .feature-title {
+      padding-top: 2rem;
+    }
+    .feature-text {
+      padding-left: 0;
+      padding-right:0;
+    }
+  }
+
+  
+
+
+  /* Menu */
+
+   .menu {
+      text-align: center;
+      padding: 5%;
+      background-color: #FCF4EE;
+    }
+
+    /* Gallery */
+
+    .gallery {
+      padding: 7% 10%;
+      text-align: center;
+      background-color: white;
+    }
+  
+    .item {
+      width: 30%;
+      margin: 30px 10px;
+      }
+  
+/* footer */
+
+  .footer {
+    background-color:#EBB284;
+    padding: 0 10px;
+    text-align: center;
+  }
+
+  .contact-title {
+    margin: 1.5rem 0;
+}
+
+  .socials {
+    margin-bottom: 2rem;
+  }
+
+  a {
+   text-decoration: none;
+  }
+  
+  .fab {
+    color: #fff;
+    margin: 4px 6px;
+  }
+  
+  .fab:hover {
+    color: rgba(210, 105, 30, 0.603);
+  }
+ 
+  
+  @media (max-width: 1000px) {
+  .order-sm-first {
+    order: -1!important;
+  }
+}
+
+  .center {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .days {
+    text-align: right;
+    padding-right: 1rem;
+  }
+
+  .copyright {
+    margin: 2px;
+    font-style: italic;
+    font-size: 0.7rem;
+  }
+
+
+  
+

@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafe Gardenia</title>
+    <link href="https://fonts.googleapis.com/css2?family=Antic+Didone&family=Herr+Von+Muellerhoff&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://kit.fontawesome.com/8aacd096e4.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/slick-theme.css">  
+    
+</head>
+
+<body>
+
+ <!-- navbar -->
+
+    <nav class="navbar navbar-expand-lg navbar-custom fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Cafe Gardenia</a>
+            <button class="custom-toggler navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon custom-toggler"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#about">ABOUT US</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#menu">MENU</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#gallery">GALLERY</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">CONTACT</a>
+                </li>
+            </ul>
+            </div>
+        </div>
+
+    </nav>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous"></script>
+    
+    <script>
+      $('.navbar-collapse a').click(function(){
+          $(".navbar-collapse").collapse('hide');
+      });
+  </script>
+
+<!-- logo -->
+
+<section class="hero" id="hero">
+      <div class="container">
+          <img class="logo" src="css/images/gardenia.png" alt="logo">
+      </div>
+</section>
+
+
+<!-- about us -->
+
+<section class="feature-section" id="about">
+
+    <div class="container-fluid">
+     <div class="row">
+      <div class="feature-box col-lg-6 order-lg-first order-sm-last order-xs-last">
+              <img class="feature-image" src="css/images/cafe.png" alt="cafe">
+      </div>
+
+       <div class="feature-box col-lg-6 order-lg-last order-sm-first order-xs-first">
+            <h3 class="feature-title">Welcome to Cafe Gardenia</h3>
+              <p class="feature-text">
+              Enjoy the laid-back atmosphere and delicious menu items
+              of  Cafe Gardenia in Barcelona.
+              Our cafe opened in 2004, and has ever since been a place
+              for meeting people, enjoying life and creating memories.
+              </p>
+        </div>
+      </div>
+    </div>
+
+     <div class="container-fluid">
+       <div class="row">
+          <div class="feature-box text col-lg-6 order-lg-first order-sm-first">
+              <h3 class="feature-title">Fair Trade coffee</h3>
+              <p class="feature-text">Organic farming methods guarantee that beans are grown without toxic chemicals. After harvest, the beans
+              are roasted using sustainable methods.
+              That is how we get quality
+              beans, which we brew in house for a perfect cup of coffee.</p>
+          </div>
+
+          <div class="feature-box col-lg-6 order-lg-last order-sm-last">
+              <img class="feature-image" src="css/images/coffee-bean.png" alt="coffee-bean">
+          </div>
+      </div>
+    </div>
+
+
+        <div class="container-fluid">
+          <div class="row">
+            <div class="feature-box col-lg-6 order-lg-first order-sm-last">
+              <img class="feature-image" src="css/images/breakfast.png" alt="breakfast">
+            </div>
+
+            <div class="feature-box col-lg-6 order-lg-last order-sm-first">
+               <h3 class="feature-title">Fresh, every day</h3>
+               <p class="feature-text">To guarantee freshness and quality,
+                 we use sustainably sourced ingredients
+                 from local suppliers whenever possible.
+                 Using these ingredients we are able to make our delicious desserts, snacks,
+                 and beverages for you to enjoy. We hope to see you soon!</p>
+            </div>
+          </div>
+        </div>
+</section>
+
+
+<!-- menu -->
+
+<section class="menu" id="menu">
+
+      <h2 class="section-title">Menu</h2>
+
+           <div class="container-fluid">
+                <div class="row">
+                    <div class="feature-box col-lg-6">
+                      <img src="css/images/menu-part1.png" alt="coffeemenu">
+                    </div>
+
+                    <div class="feature-box col-lg-6">
+                       <img src="css/images/menu-part2.png" alt="dessertmenu">
+                    </div>
+                </div>
+          </div>
+
+
+          <div class="container-fluid">
+               <div class="row">
+                    <div class="feature-box col-lg-6 order-lg-first order-sm-last order-xs-last">
+                      <img src="css/images/menu-part3.png" alt="tastybites">
+                    </div>
+
+                    <div class="feature-box col-lg-6 order-lg-last order-sm-first order-xs-first">
+                      <img src="css/images/menu-part4.png" alt="juice">
+                   </div>
+               </div>
+          </div>
+                        
+</section>
+
+<!-- gallery -->
+
+
+<section class="gallery" id="gallery">
+
+    <h2 class="section-title">Gallery</h2>
+
+    <div class="responsive">
+        <div class="item"><img src="css/images/barista.png" alt="item"></div>
+        <div class="item"><img src="css/images/coffee.png" alt="item"></div>
+        <div class="item"><img src="css/images/waffles.png" alt="item"></div>
+        <div class="item"><img src="css/images/smoothie.png" alt="item"></div>
+        <div class="item"><img src="css/images/yogurt.png" alt="item"></div>
+        <div class="item"><img src="css/images/macaron.png" alt="item"></div>
+        <div class="item"><img src="css/images/brownie.png" alt="item"></div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+
+        $('.responsive').slick({
+          dots: true,
+          infinite: true,
+          speed: 400,
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          autoplay: true,
+          responsive: [
+            {
+              breakpoint: 1024,
+              settings: {
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                infinite: true,
+                dots: true
+              }
+            },
+            {
+              breakpoint: 600,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2
+              }
+            },
+            {
+              breakpoint: 480,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+              }
+            }
+            // You can unslick at a given breakpoint now by adding:
+            // settings: "unslick"
+            // instead of a settings object
+          ]
+        });
+
+    </script>
+</section>
+
+  <!-- footer -->
+
+<footer class="footer" id="contact">
+
+    <div class="container-fluid">
+      <div class="row">
+
+        <div class="feature-box col-lg-4">
+        <h2 class="contact-title">Contact</h2>
+                <p>Calle de Blanes 1234<br>
+                Barcelona<br></p>
+                <p>012 345 678<br></p>
+                <p>info@notarealcafe.es</p>
+        </div>
+
+        <div class="feature-box col-lg-4">
+          <h2 class="contact-title">Opening hours</h2>
+          <table class="center">
+            <tr>
+              <td class="days">Mon - Fri:</td>
+              <td>7am - 8pm</td>
+            </tr>
+            <tr>
+              <td class="days">Sat - Sun:</td>
+              <td>9am - 6pm</td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="feature-box col-lg-4">
+          <h2 class="contact-title">Follow us</h2>
+          <div class="socials">
+              <a href="#">
+                 <i class="fab fa-facebook-square fa-2x"></i>
+              </a>
+              <a href="#">
+                 <i class="fab fa-instagram-square fa-2x"></i>
+              </a>
+              <a href="#">
+                 <i class="fab fa-twitter-square fa-2x"></i>
+              </a>
+          </div>
+        </div>
+
+            <span class="copyright">
+                <p>Copyright © 2021 - Cafe Gardenia</p>
+            </span>
+        </div>
+     </div>
+
+</footer>
+
+    <!-- Bootstrap Bundle Javascript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <script src="js/slick.min.js"></script>
+
+</body>
+</html>
